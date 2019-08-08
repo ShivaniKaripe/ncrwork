@@ -11,7 +11,7 @@ int main()
 	}
 	printf_s("enter the sum");
 	scanf_s("%d", &sum);
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i <= n; i++)
 	{
 		c = 0;
 		for (int j = i; j < n; j++)
@@ -27,7 +27,7 @@ int main()
 		}
 
 	}
-		printf_s("failure");
+		printf_s("failu");
 suc:
 		printf_s("success");
 		scanf_s("%d", &n);
